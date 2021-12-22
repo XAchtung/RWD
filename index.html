@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szkielet Zaliczeniowy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@500&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Ubuntu', sans-serif;
+            color: white;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-image: url(f0311863a23b826c6133d994c8449fe7.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center bottom;
+            background-color: #181818;
+        }
+        h1{
+            font-family: 'Bebas Neue', cursive;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Ubuntu', sans-serif;
+            text-align: center;
+            font-size: 5rem;
+            margin-bottom: 5vh;
+        }
+        h2{
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 5vh;
+            font-family:sans-serif;
+            text-shadow: white 0px 0px 5px;
+        }
+        input{
+            height: 5vh;
+            background:none;
+            display: block;
+            align-items: center;
+            margin-left: 1rem;
+            margin-right: 1rem;
+            text-align: center;
+            border: 2px solid #ff2020;
+            box-shadow: #ff2020 0px 0px 5px;
+            padding: 10px 10px;
+            font-size:20px;
+            font-weight: bolder;
+            font-family:sans-serif;
+		    cursor: pointer;
+
+        }
+        input:hover{
+            box-shadow: #ff2020 0px 0px 0px;
+        }
+        .buttons{
+            padding: 20px;
+            margin-bottom: 100px;
+            text-align: center;
+            width: 100%;
+            background-color: #201f1f;
+        }
+    </style>
+</head>
+<body>
+    <script language="JavaScript">
+        function WinOpen_berg1(){
+            window.open("zad2.html","okienko","toolbar=no,directories=no,menubar=no,height=720,width=1000,top=200,left=450");
+        }
+        function WinOpen_berg2(){
+            window.open("zad3.html","okienko","toolbar=no,directories=no,menubar=no,height=720,width=1000,top=200,left=450");
+        }
+        function WinOpen_berg3(){
+            window.open("zad4.html","okienko","toolbar=no,directories=no,menubar=no,height=720,width=1000,top=200,left=450");
+        }
+        function WinOpen_berg4(){
+            window.open("berg.css","okienko","toolbar=no,directories=no,menubar=no,height=720,width=1000,top=200,left=450");
+        }
+
+    </script> 
+
+    <h1>2P BERG</h1>
+    <div class="buttons"><h2>ZADANIA</h2>
+    <table align="center">
+        <tr>
+            <td><input type="button" name="przycisk" value="Zadanie 2" onclick="WinOpen_berg1(' ')"></td>
+            <td><input type="button" name="przycisk" value="Zadanie 3" onclick="WinOpen_berg2(' ')"></td>
+            <td><input type="button" name="przycisk" value="Zadanie 4" onclick="WinOpen_berg3(' ')"></td>
+            <td><input type="button" name="przycisk" value="Kod CSS wraz z komentarzami" onclick="WinOpen_berg4(' ')"></td>
+        </tr>
+     </table>
+    </div>
+</body>
+</html>

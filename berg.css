@@ -1,0 +1,12 @@
+/*pozostałe przypadki czerwone*/
+div {
+    background-color:red;
+}
+
+/*gdy strona internetowa zostanie wyświetlona jako: prezentacja projektorowych, lub dla komputerów z kolorowym ekranem lub dla dalekopisów, terminali albo dla telewizora to element div zielony*/
+@media projection, screen, tty, tv { 
+    div {
+        background-color:green;
+    }
+}
+   
