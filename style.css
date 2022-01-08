@@ -1,0 +1,64 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(f0311863a23b826c6133d994c8449fe7.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;
+    background-color: #181818;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 5vh;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 5vh;
+    font-family: sans-serif;
+    text-shadow: white 0px 0px 5px;
+}
+
+input {
+    height: 5vh;
+    width: 10rem;
+    background: none;
+    display: block;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+    border: 2px solid #ff2020;
+    box-shadow: #ff2020 0px 0px 5px;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    cursor: pointer;
+
+}
+
+input:hover {
+    box-shadow: #ff2020 0px 0px 0px;
+}
+
+.buttons {
+    padding: 20px;
+    margin-bottom: 100px;
+    text-align: center;
+    width: 100%;
+    background-color: #201f1f;
+    box-shadow: #ff2020 0px 0px 1px;
+}
